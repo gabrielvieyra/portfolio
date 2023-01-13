@@ -1,10 +1,13 @@
 function App() {
+  const title01 = 'Probando taildwind';
+  const title02 = 'Probando taildwind 02';
+
   return (
     <>
-      <h1>Probando taildwind</h1>
-      <h2>Probando taildwind 02</h2>
+      <h1>{title01}</h1>
+      <h2>{title02}</h2>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
