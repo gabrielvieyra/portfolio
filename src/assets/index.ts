@@ -1,4 +1,6 @@
 import myPhoto from './foto-mia.jpg';
+
+// Skills
 import sass from './skills/sass.svg';
 import react from './skills/react.svg';
 import angular from './skills/angular.svg';
@@ -21,6 +23,11 @@ import tailwind from './skills/tailwindcss.svg';
 import firebase from './skills/firebase.svg';
 import illustrator from './skills/illustrator.svg';
 import photoshop from './skills/photoshop.svg';
+
+// Contact
+import linkedin from './contact/linkedin.svg';
+import email from './contact/email.svg';
+import behance from './contact/behance.svg';
 
 export {
   myPhoto,
@@ -46,4 +53,7 @@ export {
   firebase,
   illustrator,
   photoshop,
+  linkedin,
+  email,
+  behance,
 };
