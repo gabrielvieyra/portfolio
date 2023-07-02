@@ -29,6 +29,15 @@ import linkedin from './contact/linkedin.svg';
 import email from './contact/email.svg';
 import behance from './contact/behance.svg';
 
+// Projects
+import githubWhite from './projects/github-white.svg';
+import online from './projects/online.svg';
+import rickAndMortyApp from './projects/rick-and-morty-app.jpg';
+import heroesApp from './projects/heroes-app.jpg';
+import cinemania from './projects/cinemania.jpg';
+import pokedex from './projects/pokedex.jpg';
+import clonGiphy from './projects/clon-giphy.jpg';
+
 export {
   myPhoto,
   sass,
@@ -56,4 +65,11 @@ export {
   linkedin,
   email,
   behance,
+  githubWhite,
+  online,
+  rickAndMortyApp,
+  heroesApp,
+  cinemania,
+  pokedex,
+  clonGiphy,
 };
