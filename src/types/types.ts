@@ -3,6 +3,15 @@ export interface Skill {
   icon: string;
 }
 
+export interface Project {
+  name: string;
+  stack: Array<string>;
+  description: string;
+  image: string;
+  url: string;
+  code: string;
+}
+
 export interface ContactLink {
   label: string;
   link: string;
