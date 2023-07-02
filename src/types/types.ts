@@ -17,3 +17,8 @@ export interface ContactLink {
   link: string;
   icon: string;
 }
+
+export interface NavbarLink {
+  id: string;
+  title: string;
+}
