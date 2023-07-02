@@ -8,7 +8,7 @@ import { contactlinks } from '../data/contact';
 
 export const Contact: FC = () => {
   return (
-    <section id='contact' className='bg-white text-black py-[2rem]'>
+    <section id='contact' className='bg-white text-black py-[4.5rem]'>
       <ContainerEffect>
         <div className='w-[80%] my-0 mx-auto flex flex-col gap-[1rem]'>
           <h2 className='text-center text-[2.25rem] leading-none font-semibold'>

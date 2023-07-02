@@ -8,7 +8,7 @@ import { myPhoto } from '../assets';
 
 export const AboutMe: FC = () => {
   return (
-    <section id='about-me' className='bg-grey py-[2rem]'>
+    <section id='about-me' className='bg-grey py-[4.5rem]'>
       <ContainerEffect>
         <div className='w-[80%] my-0 mx-auto flex justify-center'>
           <div className='flex gap-[2rem] items-center'>
