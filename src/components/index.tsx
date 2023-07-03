@@ -8,6 +8,7 @@ import { Contact } from './Contact';
 import { SkillCard } from './SkillCard';
 import { ContainerEffect } from './ContainerEffect';
 import { ProjectCard } from './ProjectCard';
+import { DarkMode } from './DarkMode';
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   SkillCard,
   ContainerEffect,
   ProjectCard,
+  DarkMode,
 };

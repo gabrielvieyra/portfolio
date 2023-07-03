@@ -1,12 +1,17 @@
-function App() {
-  const title01 = 'Probando taildwind';
-  const title02 = 'Probando taildwind 02';
+// Styles
+import './index.css';
 
+// Components
+import { Layout, AboutMe, Projects, Skills, Contact } from './components';
+
+function App() {
   return (
-    <>
-      <h1>{title01}</h1>
-      <h2>{title02}</h2>
-    </>
+    <Layout>
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+    </Layout>
   );
 }
 

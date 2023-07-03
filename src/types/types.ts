@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export interface Skill {
   text: string;
   icon: string;
@@ -15,7 +17,7 @@ export interface Project {
 export interface ContactLink {
   label: string;
   link: string;
-  icon: string;
+  icon: ReactNode;
 }
 
 export interface NavbarLink {

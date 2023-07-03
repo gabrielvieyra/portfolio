@@ -24,11 +24,6 @@ import firebase from './skills/firebase.svg';
 import illustrator from './skills/illustrator.svg';
 import photoshop from './skills/photoshop.svg';
 
-// Contact
-import linkedin from './contact/linkedin.svg';
-import email from './contact/email.svg';
-import behance from './contact/behance.svg';
-
 // Projects
 import githubWhite from './projects/github-white.svg';
 import online from './projects/online.svg';
@@ -62,9 +57,6 @@ export {
   firebase,
   illustrator,
   photoshop,
-  linkedin,
-  email,
-  behance,
   githubWhite,
   online,
   rickAndMortyApp,

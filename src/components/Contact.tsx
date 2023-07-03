@@ -8,9 +8,9 @@ import { contactlinks } from '../data/contact';
 
 export const Contact: FC = () => {
   return (
-    <section id='contact' className='bg-white text-black py-[4.5rem]'>
+    <section id='contact' className='text-black py-[4.5rem]'>
       <ContainerEffect>
-        <div className='w-[80%] my-0 mx-auto flex flex-col gap-[1rem]'>
+        <div className='w-[80%] my-0 mx-auto flex flex-col gap-[1rem] dark:text-white'>
           <h2 className='text-center text-[2.25rem] leading-none font-semibold'>
             Pongámonos en contacto
           </h2>
@@ -26,7 +26,7 @@ export const Contact: FC = () => {
                   key={label}
                   className='font-normal cursor-pointer text-[1rem] flex gap-[0.25rem] hover:underline'
                 >
-                  <img src={icon} alt={label} className='w-[1.5rem] h-[1.5rem]' />
+                  {icon}
                   <a href={link} target='_blank' rel='noreferrer'>
                     {label}
                   </a>
