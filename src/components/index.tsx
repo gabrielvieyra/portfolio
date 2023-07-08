@@ -9,6 +9,7 @@ import { SkillCard } from './SkillCard';
 import { ContainerEffect } from './ContainerEffect';
 import { ProjectCard } from './ProjectCard';
 import { DarkMode } from './DarkMode';
+import { MenuMobile } from './MenuMobile';
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   ContainerEffect,
   ProjectCard,
   DarkMode,
+  MenuMobile,
 };
