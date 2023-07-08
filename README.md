@@ -2,13 +2,13 @@
 
 Este portfolio es una web desarrollada con la finalidad de recopilar proyectos realizados.
 
-**Demo:** https://gabriel-vieyra-portfolio.vercel.app/
+**Demo:** https://gabriel-vieyra.vercel.app/
 
 ### Características generales:
 
+- EL usuario podrá alternar dark y light mode
+- La página web es responsive
 - Creacion e implementacion de custom hooks con el fin de optimizar el código
-- EL usuario podra alternar dark y light mode
-- TODO: La página web es responsive
 
 ### Instalación:
 
@@ -56,10 +56,5 @@ npm run dev
 - Organizacion del proyecto:
 
 - TODO:
-- Responsive / menu mobile
 - poder descargar el CV desde el portfolio
-
-- Commits:
-- agrego archivo readme
-- dsds
 -->
