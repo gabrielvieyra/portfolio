@@ -13,7 +13,7 @@ interface ProjectCardProps {
 export const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
   const { name, image, description, stack, url, code } = project;
   return (
-    <div className='w-[29.375rem] rounded-2xl overflow-hidden bg-white'>
+    <div className='w-[29.375rem] rounded-2xl overflow-hidden bg-white mobile:w-full'>
       <div className='relative'>
         <div
           className='absolute w-full h-full flex justify-center items-center bg-black opacity-0 bg-opacity-0 transition
@@ -34,9 +34,9 @@ export const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
       <div className='p-[1rem]'>
         <h2 className='font-semibold text-[1.5rem]'>{name}</h2>
         <p className=''>{description}</p>
-        <div className='flex gap-[0.5rem] items-center mt-[0.5rem]'>
+        <div className='flex gap-[0.5rem] items-center mt-[0.5rem] tablet:flex-col tablet:items-start'>
           <span className='font-semibold'>Tecnologías:</span>
-          <ul className='flex gap-3'>
+          <ul className='flex gap-3 tablet:flex-wrap'>
             {stack.map(technology => {
               return (
                 <li

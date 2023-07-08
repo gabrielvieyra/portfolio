@@ -12,6 +12,22 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      screens: {
+        fullDesktop: { max: '1660px' },
+        // => @media (max-width: 1660px) { ... }
+
+        desktop: { max: '1440px' },
+        // => @media (max-width: 1440px) { ... }
+
+        laptop: { max: '1024px' },
+        // => @media (max-width: 1024px) { ... }
+
+        tablet: { max: '768px' },
+        // => @media (max-width: 768px) { ... }
+
+        mobile: { max: '480px' },
+        // => @media (max-width: 480px) { ... }
+      },
     },
   },
   plugins: [],
